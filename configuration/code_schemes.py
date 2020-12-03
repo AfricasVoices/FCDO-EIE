@@ -23,7 +23,8 @@ class CodeSchemes(object):
     SOMALIA_REGION = _open_scheme("somalia_region.json")
     SOMALIA_STATE = _open_scheme("somalia_state.json")
     SOMALIA_ZONE = _open_scheme("somalia_zone.json")
-    IN_IDP_CAMP = _open_scheme("in_idp_camp.json")
     RECENTLY_DISPLACED = _open_scheme("recently_displaced.json")
+    CHILDREN_IN_SCHOOL = _open_scheme("children_in_school.json")
+    LIVELIHOOD = _open_scheme("livelihood.json")
 
     WS_CORRECT_DATASET = _open_scheme("ws_correct_dataset.json")

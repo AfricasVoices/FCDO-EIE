@@ -22,7 +22,8 @@ DATASETS=(
     "CSAP_gender"
     "CSAP_location"
     "CSAP_recently_displaced"
-    "CSAP_in_idp_camp"
+    "CSAP_children_in_school"
+    "CSAP_livelihood"
 )
 
 cd "$CODA_V2_ROOT/data_tools"

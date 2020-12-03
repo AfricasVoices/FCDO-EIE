@@ -189,8 +189,10 @@
     {"SourceKey": "Age (Time) - csap_s10_demog", "PipelineKey": "age_time"},
     {"SourceKey": "Recently_Displaced (Text) - csap_s10_demog", "PipelineKey": "recently_displaced_raw"},
     {"SourceKey": "Recently_Displaced (Time) - csap_s10_demog", "PipelineKey": "recently_displaced_time"},
-    {"SourceKey": "Idp_Camp (Text) - csap_s10_demog", "PipelineKey": "in_idp_camp_raw"},
-    {"SourceKey": "Idp_Camp (Time) - csap_s10_demog", "PipelineKey": "in_idp_camp_time"}
+    {"SourceKey": "Children_In_School (Text) - csap_s10_demog", "PipelineKey": "children_in_school_raw"},
+    {"SourceKey": "Children_In_School (Time) - csap_s10_demog", "PipelineKey": "children_in_school_time"},
+    {"SourceKey": "Livelihood (Text) - csap_s10_demog", "PipelineKey": "livelihood_raw"},
+    {"SourceKey": "Livelihood (Time) - csap_s10_demog", "PipelineKey": "livelihood_time"}
   ],
   "ProjectStartDate": "2000-01-01T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00+03:00",
