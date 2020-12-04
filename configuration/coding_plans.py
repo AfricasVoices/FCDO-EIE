@@ -216,7 +216,7 @@ def get_demog_coding_plans(pipeline_name):
                            fold_strategy=FoldStrategies.assert_label_ids_equal
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("children in school"),
                    raw_field_fold_strategy=FoldStrategies.assert_equal),
 
         CodingPlan(raw_field="livelihood_raw",
@@ -231,7 +231,7 @@ def get_demog_coding_plans(pipeline_name):
                            fold_strategy=FoldStrategies.assert_label_ids_equal
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("livelihood"),
                    raw_field_fold_strategy=FoldStrategies.assert_equal),
     ]
 

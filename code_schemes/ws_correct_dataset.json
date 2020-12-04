@@ -91,6 +91,17 @@
         "livelihood"
       ]
     },
+     {
+      "CodeID": "code-3e722885",
+      "CodeType": "Normal",
+      "DisplayText": "children in school",
+      "StringValue": "children_in_school",
+      "NumericValue": 54,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "children in school"
+      ]
+    },
     {
       "CodeID": "code-87ec1cb8",
       "CodeType": "Normal",
