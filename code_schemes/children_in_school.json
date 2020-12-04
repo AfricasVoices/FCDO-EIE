@@ -1,10 +1,10 @@
 {
-  "SchemeID": "Scheme-0fe57c6d",
-  "Name": "In IDP Camp",
-  "Version": "0.0.0.4",
+  "SchemeID": "Scheme-ac7879d8",
+  "Name": "Children in School",
+  "Version": "0.0.0.1",
   "Codes": [
     {
-      "CodeID": "code-dc43b68e",
+      "CodeID": "code-07e268c2",
       "CodeType": "Normal",
       "DisplayText": "yes",
       "NumericValue": 1,
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "CodeID": "code-5d5708c8",
+      "CodeID": "code-2167c6b7",
       "CodeType": "Normal",
       "DisplayText": "no",
       "Shortcut": "n",

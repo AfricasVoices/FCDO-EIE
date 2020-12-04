@@ -203,21 +203,36 @@ def get_demog_coding_plans(pipeline_name):
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
                    raw_field_fold_strategy=FoldStrategies.assert_equal),
 
-        CodingPlan(raw_field="in_idp_camp_raw",
-                   time_field="in_idp_camp_time",
-                   coda_filename="CSAP_in_idp_camp.json",
+        CodingPlan(raw_field="children_in_school_raw",
+                   time_field="children_in_school_time",
+                   coda_filename="CSAP_children_in_school.json",
                    coding_configurations=[
                        CodingConfiguration(
                            coding_mode=CodingModes.SINGLE,
-                           code_scheme=CodeSchemes.IN_IDP_CAMP,
+                           code_scheme=CodeSchemes.CHILDREN_IN_SCHOOL,
                            cleaner=somali.DemographicCleaner.clean_yes_no,
-                           coded_field="in_idp_camp_coded",
-                           analysis_file_key="in_idp_camp",
+                           coded_field="children_in_school_coded",
+                           analysis_file_key="children_in_school",
                            fold_strategy=FoldStrategies.assert_label_ids_equal
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("in idp camp"),
-                   raw_field_fold_strategy=FoldStrategies.assert_equal)
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(raw_field="livelihood_raw",
+                   time_field="livelihood_time",
+                   coda_filename="CSAP_livelihood.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.LIVELIHOOD,
+                           coded_field="livelihood_coded",
+                           analysis_file_key="livelihood",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
     ]
 
 
