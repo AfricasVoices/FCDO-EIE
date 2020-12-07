@@ -8,7 +8,7 @@
       "CodeType": "Normal",
       "DisplayText": "s10e01",
       "StringValue": "s10e01",
-      "NumericValue": 46,
+      "NumericValue": 52,
       "VisibleInCoda": true,
       "MatchValues": [
         "s10e01"
@@ -19,7 +19,7 @@
       "CodeType": "Normal",
       "DisplayText": "s10e02",
       "StringValue": "s10e02",
-      "NumericValue": 47,
+      "NumericValue": 53,
       "VisibleInCoda": true,
       "MatchValues": [
         "s10e02"
@@ -401,83 +401,6 @@
       ]
     },
     {
-      "CodeID": "code-4d50ef28",
-      "CodeType": "Normal",
-      "DisplayText": "s08e01",
-      "StringValue": "s08e01",
-      "NumericValue": 38,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s08e01"
-      ]
-    },
-    {
-      "CodeID": "code-3c33d7fb",
-      "CodeType": "Normal",
-      "DisplayText": "s08e02",
-      "StringValue": "s08e02",
-      "NumericValue": 39,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s08e02"
-      ]
-    },
-    {
-      "CodeID": "code-42a7b651",
-      "CodeType": "Normal",
-      "DisplayText": "s08e03",
-      "StringValue": "s08e03",
-      "NumericValue": 40,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s08e03"
-      ]
-    },
-    {
-      "CodeID": "code-076e22f0",
-      "CodeType": "Normal",
-      "DisplayText": "s09e01",
-      "StringValue": "s09e01",
-      "NumericValue": 42,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s09e01"
-      ]
-    },
-    {
-      "CodeID": "code-76017ab2",
-      "CodeType": "Normal",
-      "DisplayText": "s09e02",
-      "StringValue": "s09e02",
-      "NumericValue": 43,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s09e02"
-      ]
-    },
-    {
-      "CodeID": "code-04413b79",
-      "CodeType": "Normal",
-      "DisplayText": "s09e03",
-      "StringValue": "s09e03",
-      "NumericValue": 44,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s09e03"
-      ]
-    },
-    {
-      "CodeID": "code-1fe18580",
-      "CodeType": "Normal",
-      "DisplayText": "s09e03 break",
-      "StringValue": "s09e03_break",
-      "NumericValue": 45,
-      "VisibleInCoda": true,
-      "MatchValues": [
-        "s09e03 break"
-      ]
-    },
-    {
       "CodeID": "code-de134fc1",
       "CodeType": "Normal",
       "DisplayText": "have voice",
@@ -530,6 +453,149 @@
       "VisibleInCoda": true,
       "MatchValues": [
         "s07 government priority"
+      ]
+    },
+    {
+      "CodeID": "code-4d50ef28",
+      "CodeType": "Normal",
+      "DisplayText": "s08e01",
+      "StringValue": "s08e01",
+      "NumericValue": 38,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e01"
+      ]
+    },
+    {
+      "CodeID": "code-3c33d7fb",
+      "CodeType": "Normal",
+      "DisplayText": "s08e02",
+      "StringValue": "s08e02",
+      "NumericValue": 39,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e02"
+      ]
+    },
+    {
+      "CodeID": "code-42a7b651",
+      "CodeType": "Normal",
+      "DisplayText": "s08e03",
+      "StringValue": "s08e03",
+      "NumericValue": 40,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e03"
+      ]
+    },
+     {
+      "CodeID": "code-236eaee0",
+      "CodeType": "Normal",
+      "DisplayText": "s08e03 break",
+      "StringValue": "s08e03_break",
+      "NumericValue": 51,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e03_break"
+      ]
+    },
+    {
+      "CodeID": "code-076e22f0",
+      "CodeType": "Normal",
+      "DisplayText": "s09e01",
+      "StringValue": "s09e01",
+      "NumericValue": 42,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e01"
+      ]
+    },
+    {
+      "CodeID": "code-76017ab2",
+      "CodeType": "Normal",
+      "DisplayText": "s09e02",
+      "StringValue": "s09e02",
+      "NumericValue": 43,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e02"
+      ]
+    },
+    {
+      "CodeID": "code-04413b79",
+      "CodeType": "Normal",
+      "DisplayText": "s09e03",
+      "StringValue": "s09e03",
+      "NumericValue": 44,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e03"
+      ]
+    },
+    {
+      "CodeID": "code-1fe18580",
+      "CodeType": "Normal",
+      "DisplayText": "s09e03 break",
+      "StringValue": "s09e03_break",
+      "NumericValue": 45,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e03 break"
+      ]
+    },
+    {
+      "CodeID": "code-0b1cce35",
+      "CodeType": "Normal",
+      "DisplayText": "s09e04",
+      "StringValue": "s09e04",
+      "NumericValue": 46,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e04"
+      ]
+    },
+    {
+      "CodeID": "code-ada9931f",
+      "CodeType": "Normal",
+      "DisplayText": "s09e05",
+      "StringValue": "s09e05",
+      "NumericValue": 47,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e05"
+      ]
+    },
+    {
+      "CodeID": "code-5e288e86",
+      "CodeType": "Normal",
+      "DisplayText": "s09e06",
+      "StringValue": "s09e06",
+      "NumericValue": 48,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e06"
+      ]
+    },
+    {
+      "CodeID": "code-1fc8c37a",
+      "CodeType": "Normal",
+      "DisplayText": "s09e07",
+      "StringValue": "s09e07",
+      "NumericValue": 49,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e07"
+      ]
+    },
+    {
+      "CodeID": "code-44794930",
+      "CodeType": "Normal",
+      "DisplayText": "s09e08",
+      "StringValue": "s09e08",
+      "NumericValue": 50,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e08"
       ]
     },
     {
