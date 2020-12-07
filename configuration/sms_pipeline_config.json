@@ -57,7 +57,8 @@
         "csap_s10_demog"
       ],
       "TestContactUUIDs": [
-
+        "ad1b2f2e-b6dc-4ab0-909c-fa0ba182e5ef",
+        "ed54f01c-d1ec-4644-868a-d31e8656361e"
       ]
     }
   ],
@@ -194,9 +195,9 @@
     {"SourceKey": "Livelihood (Text) - csap_s10_demog", "PipelineKey": "livelihood_raw"},
     {"SourceKey": "Livelihood (Time) - csap_s10_demog", "PipelineKey": "livelihood_time"}
   ],
-  "ProjectStartDate": "2000-01-01T00:00:00+03:00",
+  "ProjectStartDate": "2020-12-06T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00+03:00",
-  "FilterTestMessages": false,
+  "FilterTestMessages": true,
   "MoveWSMessages": true,
   "AutomatedAnalysis": {
     "GenerateRegionThemeDistributionMaps": true,
