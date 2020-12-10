@@ -24,6 +24,8 @@ DATASETS=(
     "CSAP_recently_displaced"
     "CSAP_children_in_school"
     "CSAP_livelihood"
+
+    "FCDO_EiE_Schools_Informing_Parents"
 )
 
 cd "$CODA_V2_ROOT/data_tools"
