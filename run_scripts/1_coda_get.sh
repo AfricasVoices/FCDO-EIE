@@ -25,7 +25,7 @@ DATASETS=(
     "CSAP_children_in_school"
     "CSAP_livelihood"
 
-    "FCDO_EiE_Schools_Informing_Parents"
+    "FCDO_EiE_schools_informing_parents"
 )
 
 cd "$CODA_V2_ROOT/data_tools"
