@@ -237,7 +237,22 @@ def get_demog_coding_plans(pipeline_name):
 
 
 def get_follow_up_coding_plans(pipeline_name):
-    return []
+    return [
+        CodingPlan(raw_field="schools_informing_parents_raw",
+                   time_field="schools_informing_parents_time",
+                   coda_filename="FCDO_EiE_schools_informing_parents.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.SCHOOLS_INFORMING_PARENTS,
+                           coded_field="schools_informing_parents_coded",
+                           analysis_file_key="schools_informing_parents",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e01 schools informing parents"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal)
+    ]
 
 
 def get_ws_correct_dataset_scheme(pipeline_name):

@@ -54,7 +54,8 @@
         "csap_s10e02_activation"
       ],
       "SurveyFlowNames": [
-        "csap_s10_demog"
+        "csap_s10_demog",
+        "csap_s10e01_follow_up"
       ],
       "TestContactUUIDs": [
         "ad1b2f2e-b6dc-4ab0-909c-fa0ba182e5ef",
@@ -76,6 +77,9 @@
     {"SourceKey": "Rqa_S10E02 (Text) - csap_s10e02_activation", "PipelineKey": "rqa_s10e02_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_S10E02 (Run ID) - csap_s10e02_activation", "PipelineKey": "rqa_s10e02_run_id"},
     {"SourceKey": "Rqa_S10E02 (Time) - csap_s10e02_activation", "PipelineKey": "sent_on"},
+
+    {"SourceKey": "Follow_Up_S10E01 (Text) - csap_s10e01_follow_up", "PipelineKey": "schools_informing_parents_raw"},
+    {"SourceKey": "Follow_Up_S10E01 (Time) - csap_s10e01_follow_up", "PipelineKey": "schools_informing_parents_time"},
     
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},
