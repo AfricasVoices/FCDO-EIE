@@ -3,7 +3,62 @@
   "Name": "RQA S10E01",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-2a8d758c",
+      "CodeType": "Normal",
+      "DisplayText": "lack of trained teachers",
+      "NumericValue": 1,
+      "StringValue": "lack_of_trained_teachers",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a8c5ce70",
+      "CodeType": "Normal",
+      "DisplayText": "affordability/poverty barriers",
+      "NumericValue": 2,
+      "StringValue": "affordability_or_poverty_barriers",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4e714ad9",
+      "CodeType": "Normal",
+      "DisplayText": "access barriers",
+      "NumericValue": 3,
+      "StringValue": "access_barriers",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1053187f",
+      "CodeType": "Normal",
+      "DisplayText": "poor quality of education",
+      "NumericValue": 4,
+      "StringValue": "poor_quality_of_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3dbca91c",
+      "CodeType": "Normal",
+      "DisplayText": "positive school performance",
+      "NumericValue": 5,
+      "StringValue": "positive_school_performance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ebe26dac",
+      "CodeType": "Normal",
+      "DisplayText": "lack of monitoring from government",
+      "NumericValue": 6,
+      "StringValue": "lack_of_monitoring_from_government",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c14827e5",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
