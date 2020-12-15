@@ -26,6 +26,17 @@
       ]
     },
     {
+      "CodeID": "code-4ef9de00",
+      "CodeType": "Normal",
+      "DisplayText": "s10e02 break",
+      "StringValue": "s10e02_break",
+      "NumericValue": 56,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e02 break"
+      ]
+    },
+    {
       "CodeID": "code-1e3211ab",
       "CodeType": "Normal",
       "DisplayText": "s10e01 schools informing parents",
