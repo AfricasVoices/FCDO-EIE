@@ -3,7 +3,54 @@
   "Name": "Schools Informing Parents",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-7fb7dd5b",
+      "CodeType": "Normal",
+      "DisplayText": "good working relationship",
+      "NumericValue": 1,
+      "StringValue": "good_working_relationship",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1b3e74af",
+      "CodeType": "Normal",
+      "DisplayText": "poor working relationship",
+      "NumericValue": 2,
+      "StringValue": "poor_working_relationship",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-996d1990",
+      "CodeType": "Normal",
+      "DisplayText": "school administration don't engage parents in children's performance",
+      "NumericValue": 3,
+      "StringValue": "school_administration_do_not_engage_parents_in_childrens_performance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7b768212",
+      "CodeType": "Normal",
+      "DisplayText": "teachers and parents only engage in school fees",
+      "NumericValue": 4,
+      "StringValue": "teachers_and_parents_only_engage_in_school_fees",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1a8b9e6f",
+      "CodeType": "Normal",
+      "DisplayText": "low literacy level among parents",
+      "NumericValue": 5,
+      "StringValue": "low_literacy_level_among_parents",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e71c7306",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 6,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
