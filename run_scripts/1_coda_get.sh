@@ -17,6 +17,7 @@ DATA_ROOT=$3
 DATASETS=(
     "FCDO_EiE_rqa_s10e01"
     "FCDO_EiE_rqa_s10e02"
+    "FCDO_EiE_rqa_s10e02_break"
 
     "CSAP_age"
     "CSAP_gender"
