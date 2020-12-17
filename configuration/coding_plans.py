@@ -103,17 +103,18 @@ def get_rqa_coding_plans(pipeline_name):
         CodingPlan(raw_field="schools_informing_parents_raw",
                    time_field="schools_informing_parents_time",
                    coda_filename="FCDO_EiE_schools_informing_parents.json",
+                   icr_filename="schools_informing_parents.csv",
                    coding_configurations=[
                        CodingConfiguration(
                            coding_mode=CodingModes.MULTIPLE,
                            code_scheme=CodeSchemes.SCHOOLS_INFORMING_PARENTS,
                            coded_field="schools_informing_parents_coded",
                            analysis_file_key="schools_informing_parents",
-                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.SCHOOLS_INFORMING_PARENTS, x, y)
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e01 schools informing parents"),
-                   raw_field_fold_strategy=FoldStrategies.assert_equal)
+                   raw_field_fold_strategy=FoldStrategies.concatenate)
     ]
 
 
