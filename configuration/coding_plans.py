@@ -105,7 +105,7 @@ def get_rqa_coding_plans(pipeline_name):
                    coda_filename="FCDO_EiE_schools_informing_parents.json",
                    coding_configurations=[
                        CodingConfiguration(
-                           coding_mode=CodingModes.SINGLE,
+                           coding_mode=CodingModes.MULTIPLE,
                            code_scheme=CodeSchemes.SCHOOLS_INFORMING_PARENTS,
                            coded_field="schools_informing_parents_coded",
                            analysis_file_key="schools_informing_parents",
