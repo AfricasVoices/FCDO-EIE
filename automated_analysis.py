@@ -273,13 +273,11 @@ if __name__ == "__main__":
                             round(code_count / code_total * 100, 1)
 
     episodes = OrderedDict()
-    for episode_plan in PipelineConfiguration.RQA_CODING_PLANS:
+    for episode_plan in PipelineConfiguration.RQA_CODING_PLANS + PipelineConfiguration.FOLLOW_UP_CODING_PLANS:
         # Prepare empty counts of the survey responses for each variable
         themes = OrderedDict()
         episodes[episode_plan.raw_field] = themes
         for cc in episode_plan.coding_configurations:
-            # TODO: Add support for CodingModes.SINGLE if we need it e.g. for IMAQAL?
-            assert cc.coding_mode == CodingModes.MULTIPLE, "Other CodingModes not (yet) supported"
             themes["Total Relevant Participants"] = make_survey_counts_dict()
             for code in cc.code_scheme.codes:
                 if code.control_code == Codes.STOP:
@@ -293,8 +291,13 @@ if __name__ == "__main__":
 
             relevant_participant = False
             for cc in episode_plan.coding_configurations:
-                assert cc.coding_mode == CodingModes.MULTIPLE, "Other CodingModes not (yet) supported"
-                for label in td[cc.coded_field]:
+                if cc.coding_mode == CodingModes.SINGLE:
+                    labels = [td[cc.coded_field]]
+                else:
+                    assert cc.coding_mode == CodingModes.MULTIPLE
+                    labels = td[cc.coded_field]
+
+                for label in labels:
                     code = cc.code_scheme.get_code_with_code_id(label["CodeID"])
                     if code.control_code == Codes.STOP:
                         continue
@@ -310,8 +313,6 @@ if __name__ == "__main__":
         set_survey_percentages(themes["Total Relevant Participants"], themes["Total Relevant Participants"])
 
         for cc in episode_plan.coding_configurations:
-            assert cc.coding_mode == CodingModes.MULTIPLE, "Other CodingModes not (yet) supported"
-
             for code in cc.code_scheme.codes:
                 if code.code_type != CodeTypes.NORMAL:
                     continue
@@ -338,7 +339,7 @@ if __name__ == "__main__":
     # Export a random sample of 100 messages for each normal code
     log.info("Exporting samples of up to 100 messages for each normal code...")
     samples = []  # of dict
-    for plan in PipelineConfiguration.RQA_CODING_PLANS:
+    for plan in PipelineConfiguration.RQA_CODING_PLANS + PipelineConfiguration.FOLLOW_UP_CODING_PLANS:
         for cc in plan.coding_configurations:
             code_to_messages = dict()
             for code in cc.code_scheme.codes:
@@ -348,7 +349,13 @@ if __name__ == "__main__":
                 if not AnalysisUtils.opt_in(msg, CONSENT_WITHDRAWN_KEY, plan):
                     continue
 
-                for label in msg[cc.coded_field]:
+                if cc.coding_mode == CodingModes.SINGLE:
+                    labels = [msg[cc.coded_field]]
+                else:
+                    assert cc.coding_mode == CodingModes.MULTIPLE
+                    labels = msg[cc.coded_field]
+
+                for label in labels:
                     code = cc.code_scheme.get_code_with_code_id(label["CodeID"])
                     code_to_messages[code.string_value].append(msg[plan.raw_field])
 
