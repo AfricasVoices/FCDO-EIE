@@ -27,6 +27,7 @@ DATASETS=(
     "CSAP_livelihood"
 
     "FCDO_EiE_schools_informing_parents"
+    "FCDO_EiE_issues_in_school"
 )
 
 cd "$CODA_V2_ROOT/data_tools"

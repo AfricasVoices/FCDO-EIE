@@ -268,6 +268,21 @@ def get_follow_up_coding_plans(pipeline_name):
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e01 schools informing parents"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+        
+        CodingPlan(raw_field="issues_in_school_raw",
+                   time_field="issues_in_school_time",
+                   coda_filename="FCDO_EiE_issues_in_school.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.ISSUES_IN_SCHOOL,
+                           coded_field="issues_in_school_coded",
+                           analysis_file_key="issues_in_school",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e02 issues in school"),
                    raw_field_fold_strategy=FoldStrategies.assert_equal)
     ]
 

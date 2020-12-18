@@ -29,5 +29,6 @@ class CodeSchemes(object):
     LIVELIHOOD = _open_scheme("livelihood.json")
 
     SCHOOLS_INFORMING_PARENTS = _open_scheme("schools_informing_parents.json")
+    ISSUES_IN_SCHOOL = _open_scheme("issues_in_school.json")
 
     WS_CORRECT_DATASET = _open_scheme("ws_correct_dataset.json")
