@@ -3,7 +3,62 @@
   "Name": "RQA S10E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-5713a312",
+      "CodeType": "Normal",
+      "DisplayText": "provision of free education",
+      "NumericValue": 1,
+      "StringValue": "provision_of_free_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c4051b9d",
+      "CodeType": "Normal",
+      "DisplayText": "enhance education awareness/advocacy",
+      "NumericValue": 2,
+      "StringValue": "enhance_education_awareness_or_advocacy",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e1103598",
+      "CodeType": "Normal",
+      "DisplayText": "create job opportunities for the educated youth",
+      "NumericValue": 3,
+      "StringValue": "create_job_opportunities_for_the_educated_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d938e22d",
+      "CodeType": "Normal",
+      "DisplayText": "improving quality learning and teaching",
+      "NumericValue": 4,
+      "StringValue": "improving_quality_learning_and_teaching",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-93353cfd",
+      "CodeType": "Normal",
+      "DisplayText": "supporting the vulnerable groups to access education",
+      "NumericValue": 5,
+      "StringValue": "supporting_the_vulnerable_groups_to_access_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b74bbfe7",
+      "CodeType": "Normal",
+      "DisplayText": "ensure peace and security",
+      "NumericValue": 6,
+      "StringValue": "ensure_peace_and_security",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1b6193f7",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
