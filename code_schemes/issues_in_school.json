@@ -3,7 +3,54 @@
   "Name": "Issues in School",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-0aefd71e",
+      "CodeType": "Normal",
+      "DisplayText": "curriculum challenges",
+      "NumericValue": 1,
+      "StringValue": "curriculum_challenges",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-5e38906f",
+      "CodeType": "Normal",
+      "DisplayText": "unqualified teachers",
+      "NumericValue": 2,
+      "StringValue": "unqualified_teachers",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-8a025741",
+      "CodeType": "Normal",
+      "DisplayText": "negative impact of social media",
+      "NumericValue": 3,
+      "StringValue": "negative_impact_of_social_media",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-02002816",
+      "CodeType": "Normal",
+      "DisplayText": "student lack of motivation",
+      "NumericValue": 4,
+      "StringValue": "student_lack_of_motivation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-706f21c6",
+      "CodeType": "Normal",
+      "DisplayText": "students lack of understanding lessons",
+      "NumericValue": 5,
+      "StringValue": "students_lack_of_understanding_lessons",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-748cd4a5",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 6,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
