@@ -44,6 +44,14 @@
       "VisibleInCoda": true
     },
     {
+      "CodeID": "code-8a35faed",
+      "CodeType": "Normal",
+      "DisplayText": "lack of school fees",
+      "NumericValue": 7,
+      "StringValue": "lack_of_school_fees",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-748cd4a5",
       "CodeType": "Normal",
       "DisplayText": "other theme",
