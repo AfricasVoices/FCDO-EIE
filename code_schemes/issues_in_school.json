@@ -30,15 +30,15 @@
     {
       "CodeID": "code-02002816",
       "CodeType": "Normal",
-      "DisplayText": "student lack of motivation",
+      "DisplayText": "students' lack of motivation",
       "NumericValue": 4,
-      "StringValue": "student_lack_of_motivation",
+      "StringValue": "students_lack_of_motivation",
       "VisibleInCoda": true
     },
     {
       "CodeID": "code-706f21c6",
       "CodeType": "Normal",
-      "DisplayText": "students lack of understanding lessons",
+      "DisplayText": "students' lack of understanding lessons",
       "NumericValue": 5,
       "StringValue": "students_lack_of_understanding_lessons",
       "VisibleInCoda": true
