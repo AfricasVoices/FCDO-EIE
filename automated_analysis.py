@@ -117,6 +117,23 @@ if __name__ == "__main__":
         for row in engagement_counts.values():
             writer.writerow(row)
 
+    # Export follow-up engagement counts
+    follow_up_engagement_counts = OrderedDict()
+    for plan in PipelineConfiguration.FOLLOW_UP_CODING_PLANS:
+        follow_up_engagement_counts[plan.raw_field] = {
+            "Follow-Up": plan.dataset_name,
+            "Total Participants with Opt-Ins": len(AnalysisUtils.filter_opt_ins(individuals, CONSENT_WITHDRAWN_KEY, [plan])),
+            "Total Relevant Participants": len(AnalysisUtils.filter_relevant(individuals, CONSENT_WITHDRAWN_KEY, [plan]))
+        }
+
+    with open(f"{automated_analysis_output_dir}/follow_up_engagement_counts.csv", "w") as f:
+        headers = ["Follow-Up", "Total Participants with Opt-Ins", "Total Relevant Participants"]
+        writer = csv.DictWriter(f, fieldnames=headers, lineterminator="\n")
+        writer.writeheader()
+
+        for row in follow_up_engagement_counts.values():
+            writer.writerow(row)
+
     if pipeline_configuration.pipeline_name == "TIS-Plus-Facebook":
         # Only the total engagement counts make sense for now, so don't attempt to apply any of the other standard
         # analysis to the Facebook data.
@@ -395,6 +412,8 @@ if __name__ == "__main__":
                                     callout_position_columns=("ADM1_CALLX", "ADM1_CALLY"), ax=ax)
     plt.savefig(f"{automated_analysis_output_dir}/maps/regions/regions_total_participants.png", dpi=1200, bbox_inches="tight")
     plt.close()
+
+    exit(0)
 
     if pipeline_configuration.automated_analysis.generate_region_theme_distribution_maps:
         for plan in PipelineConfiguration.RQA_CODING_PLANS:
