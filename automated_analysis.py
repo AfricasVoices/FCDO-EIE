@@ -413,8 +413,6 @@ if __name__ == "__main__":
     plt.savefig(f"{automated_analysis_output_dir}/maps/regions/regions_total_participants.png", dpi=1200, bbox_inches="tight")
     plt.close()
 
-    exit(0)
-
     if pipeline_configuration.automated_analysis.generate_region_theme_distribution_maps:
         for plan in PipelineConfiguration.RQA_CODING_PLANS:
             episode = episodes[plan.raw_field]
