@@ -121,13 +121,13 @@ if __name__ == "__main__":
     follow_up_engagement_counts = OrderedDict()
     for plan in PipelineConfiguration.FOLLOW_UP_CODING_PLANS:
         follow_up_engagement_counts[plan.raw_field] = {
-            "Follow-Up": plan.dataset_name,
+            "Dataset Name": plan.dataset_name,
             "Total Participants with Opt-Ins": len(AnalysisUtils.filter_opt_ins(individuals, CONSENT_WITHDRAWN_KEY, [plan])),
             "Total Relevant Participants": len(AnalysisUtils.filter_relevant(individuals, CONSENT_WITHDRAWN_KEY, [plan]))
         }
 
     with open(f"{automated_analysis_output_dir}/follow_up_engagement_counts.csv", "w") as f:
-        headers = ["Follow-Up", "Total Participants with Opt-Ins", "Total Relevant Participants"]
+        headers = ["Dataset Name", "Total Participants with Opt-Ins", "Total Relevant Participants"]
         writer = csv.DictWriter(f, fieldnames=headers, lineterminator="\n")
         writer.writeheader()
 
