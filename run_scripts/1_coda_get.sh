@@ -18,6 +18,8 @@ DATASETS=(
     "FCDO_EiE_rqa_s10e01"
     "FCDO_EiE_rqa_s10e02"
     "FCDO_EiE_rqa_s10e02_break"
+    "FCDO_EiE_rqa_s10e03"
+    "FCDO_EiE_rqa_s10e04"
 
     "CSAP_age"
     "CSAP_gender"

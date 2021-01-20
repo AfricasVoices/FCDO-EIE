@@ -98,6 +98,40 @@ def get_rqa_coding_plans(pipeline_name):
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e02 break"),
+                   raw_field_fold_strategy=FoldStrategies.concatenate),
+
+        CodingPlan(raw_field="rqa_s10e03_raw",
+                   time_field="sent_on",
+                   run_id_field="rqa_s10e03_run_id",
+                   coda_filename="FCDO_EiE_rqa_s10e03.json",
+                   icr_filename="rqa_s10e03.csv",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.MULTIPLE,
+                           code_scheme=CodeSchemes.RQA_S10E03,
+                           coded_field="rqa_s10e03_coded",
+                           analysis_file_key="rqa_s10e03",
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S10E03, x, y)
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e03"),
+                   raw_field_fold_strategy=FoldStrategies.concatenate),
+
+        CodingPlan(raw_field="rqa_s10e04_raw",
+                   time_field="sent_on",
+                   run_id_field="rqa_s10e04_run_id",
+                   coda_filename="FCDO_EiE_rqa_s10e04.json",
+                   icr_filename="rqa_s10e04.csv",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.MULTIPLE,
+                           code_scheme=CodeSchemes.RQA_S10E04,
+                           coded_field="rqa_s10e04_coded",
+                           analysis_file_key="rqa_s10e04",
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S10E04, x, y)
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e04"),
                    raw_field_fold_strategy=FoldStrategies.concatenate)
     ]
 

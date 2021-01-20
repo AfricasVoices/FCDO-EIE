@@ -52,7 +52,9 @@
       "ActivationFlowNames": [
         "csap_s10e01_activation",
         "csap_s10e02_activation",
-        "csap_s10e02_break_activation"
+        "csap_s10e02_break_activation",
+        "csap_s10e03_activation",
+        "csap_s10e04_activation"
       ],
       "SurveyFlowNames": [
         "csap_s10_demog",
@@ -83,6 +85,14 @@
     {"SourceKey": "Rqa_S10E02_Break (Text) - csap_s10e02_break_activation", "PipelineKey": "rqa_s10e02_break_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_S10E02_Break (Run ID) - csap_s10e02_break_activation", "PipelineKey": "rqa_s10e02_break_run_id"},
     {"SourceKey": "Rqa_S10E02_Break (Time) - csap_s10e02_break_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S10E03 (Text) - csap_s10e03_activation", "PipelineKey": "rqa_s10e03_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S10E03 (Run ID) - csap_s10e03_activation", "PipelineKey": "rqa_s10e03_run_id"},
+    {"SourceKey": "Rqa_S10E03 (Time) - csap_s10e03_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_S10E04 (Text) - csap_s10e04_activation", "PipelineKey": "rqa_s10e04_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_S10E04 (Run ID) - csap_s10e04_activation", "PipelineKey": "rqa_s10e04_run_id"},
+    {"SourceKey": "Rqa_S10E04 (Time) - csap_s10e04_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Follow_Up_S10E01 (Text) - csap_s10e01_follow_up", "PipelineKey": "schools_informing_parents_raw"},
     {"SourceKey": "Follow_Up_S10E01 (Time) - csap_s10e01_follow_up", "PipelineKey": "schools_informing_parents_time"},

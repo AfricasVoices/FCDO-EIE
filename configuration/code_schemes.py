@@ -13,6 +13,8 @@ class CodeSchemes(object):
     RQA_S10E01 = _open_scheme("rqa_s10e01.json")
     RQA_S10E02 = _open_scheme("rqa_s10e02.json")
     RQA_S10E02_BREAK = _open_scheme("rqa_s10e02_break.json")
+    RQA_S10E03 = _open_scheme("rqa_s10e03.json")
+    RQA_S10E04 = _open_scheme("rqa_s10e04.json")
 
     SOMALIA_OPERATOR = _open_scheme("somalia_operator.json")
 
