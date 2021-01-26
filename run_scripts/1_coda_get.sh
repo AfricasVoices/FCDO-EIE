@@ -33,7 +33,7 @@ DATASETS=(
 )
 
 cd "$CODA_V2_ROOT/data_tools"
-git checkout "f97d0865c3ffa1d36e94b6fc4bb740bf3b3af66c"  # (master which supports add_messages_content_batch)
+git checkout "c47977d03f96ba3e97c704c967c755f0f8b666cb"  # (master which supports incremental add)
 
 mkdir -p "$DATA_ROOT/Coded Coda Files"
 
