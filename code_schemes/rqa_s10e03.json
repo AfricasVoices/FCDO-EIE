@@ -44,19 +44,19 @@
       "VisibleInCoda": true
     },
     {
-      "CodeID": "code-a7a606d5",
-      "CodeType": "Normal",
-      "DisplayText": "parents/community negative attitude and perception",
-      "NumericValue": 6,
-      "StringValue": "parents_or_community_negative_attitude_and_perception",
-      "VisibleInCoda": true
-    },
-    {
       "CodeID": "code-7e6444d6",
       "CodeType": "Normal",
       "DisplayText": "negative attitudes and perceptions on girls' education",
-      "NumericValue": 7,
+      "NumericValue": 6,
       "StringValue": "negative_attitudes_and_perceptions_on_girls_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a7a606d5",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
       "VisibleInCoda": true
     },
     {
