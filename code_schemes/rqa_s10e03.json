@@ -3,7 +3,62 @@
   "Name": "RQA S10E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-77bf05e5",
+      "CodeType": "Normal",
+      "DisplayText": "an educated girl is an educated community",
+      "NumericValue": 1,
+      "StringValue": "an_educated_girl_is_an_educated_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2b92ff26",
+      "CodeType": "Normal",
+      "DisplayText": "marriage as an obstacle",
+      "NumericValue": 2,
+      "StringValue": "marriage_as_an_obstacle",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a40a1ca2",
+      "CodeType": "Normal",
+      "DisplayText": "girls' place will always be the kitchen",
+      "NumericValue": 3,
+      "StringValue": "girls_place_will_always_be_the_kitchen",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-5cc9bdce",
+      "CodeType": "Normal",
+      "DisplayText": "better opportunities for boys",
+      "NumericValue": 4,
+      "StringValue": "better_opportunities_for_boys",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-930284f1",
+      "CodeType": "Normal",
+      "DisplayText": "lack of encouragement",
+      "NumericValue": 5,
+      "StringValue": "lack_of_encouragement",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7e6444d6",
+      "CodeType": "Normal",
+      "DisplayText": "negative attitudes and perceptions on girls' education",
+      "NumericValue": 6,
+      "StringValue": "negative_attitudes_and_perceptions_on_girls_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a7a606d5",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
