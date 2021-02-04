@@ -3,7 +3,78 @@
   "Name": "RQA S10E04",
   "Version": "0.0.0.1",
   "Codes": [
-    
+    {
+      "CodeID": "code-0c25d554",
+      "CodeType": "Normal",
+      "DisplayText": "provision of free education",
+      "NumericValue": 1,
+      "StringValue": "provision_of_free_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a7805402",
+      "CodeType": "Normal",
+      "DisplayText": "create awareness on education",
+      "NumericValue": 2,
+      "StringValue": "create_awareness_on_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e06708d1",
+      "CodeType": "Normal",
+      "DisplayText": "ensure peace and security",
+      "NumericValue": 3,
+      "StringValue": "ensure_peace_and_security",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9a4093c7",
+      "CodeType": "Normal",
+      "DisplayText": "supporting the vulnerable groups to access education",
+      "NumericValue": 4,
+      "StringValue": "supporting_the_vulnerable_groups_to_access_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-07702abd",
+      "CodeType": "Normal",
+      "DisplayText": "improve quality education",
+      "NumericValue": 5,
+      "StringValue": "improve_quality_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9836191c",
+      "CodeType": "Normal",
+      "DisplayText": "availability of skilled and qualified teachers",
+      "NumericValue": 6,
+      "StringValue": "availability_of_skilled_and_qualified_teachers",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-370d8e7b",
+      "CodeType": "Normal",
+      "DisplayText": "promoting parental role in education",
+      "NumericValue": 7,
+      "StringValue": "promoting_parental_role_in_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4367a0b3",
+      "CodeType": "Normal",
+      "DisplayText": "community involvement in education",
+      "NumericValue": 8,
+      "StringValue": "community_involvement_in_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cea10fdc",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
