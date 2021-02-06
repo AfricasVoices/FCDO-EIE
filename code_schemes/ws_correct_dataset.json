@@ -81,6 +81,28 @@
       ]
     },
     {
+      "CodeID": "code-cf54f435",
+      "CodeType": "Normal",
+      "DisplayText": "s10 have voice",
+      "StringValue": "s10_have_voice",
+      "NumericValue": 60,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10 have voice"
+      ]
+    },
+    {
+      "CodeID": "code-b186691f",
+      "CodeType": "Normal",
+      "DisplayText": "s10 suggestions",
+      "StringValue": "s10_suggestions",
+      "NumericValue": 61,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10 suggestions"
+      ]
+    },
+    {
       "CodeID": "code-70ac05ab",
       "CodeType": "Normal",
       "DisplayText": "age",

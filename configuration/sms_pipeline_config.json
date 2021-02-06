@@ -59,7 +59,8 @@
       "SurveyFlowNames": [
         "csap_s10_demog",
         "csap_s10e01_follow_up",
-        "csap_s10e02_follow_up"
+        "csap_s10e02_follow_up",
+        "csap_s10_evaluation"
       ],
       "TestContactUUIDs": [
         "ad1b2f2e-b6dc-4ab0-909c-fa0ba182e5ef",
@@ -216,7 +217,12 @@
     {"SourceKey": "Children_In_School (Text) - csap_s10_demog", "PipelineKey": "children_in_school_raw"},
     {"SourceKey": "Children_In_School (Time) - csap_s10_demog", "PipelineKey": "children_in_school_time"},
     {"SourceKey": "Livelihood (Text) - csap_s10_demog", "PipelineKey": "livelihood_raw"},
-    {"SourceKey": "Livelihood (Time) - csap_s10_demog", "PipelineKey": "livelihood_time"}
+    {"SourceKey": "Livelihood (Time) - csap_s10_demog", "PipelineKey": "livelihood_time"},
+    
+    {"SourceKey": "Csap_S10_Have_Voice (Text) - csap_s10_evaluation", "PipelineKey":  "s10_have_voice_raw"},
+    {"SourceKey": "Csap_S10_Have_Voice (Time) - csap_s10_evaluation", "PipelineKey":  "s10_have_voice_time"},
+    {"SourceKey": "Csap_S10_Suggestions (Text) - csap_s10_evaluation", "PipelineKey":  "s10_suggestions_raw"},
+    {"SourceKey": "Csap_S10_Suggestions (Time) - csap_s10_evaluation", "PipelineKey":  "s10_suggestions_time"}
   ],
   "ProjectStartDate": "2020-12-06T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00+03:00",

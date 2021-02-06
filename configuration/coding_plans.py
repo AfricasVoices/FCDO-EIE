@@ -317,6 +317,37 @@ def get_follow_up_coding_plans(pipeline_name):
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e02 issues in school"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(raw_field="s10_have_voice_raw",
+                   time_field="s10_have_voice_time",
+                   coda_filename="FCDO_EiE_s10_have_voice.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.S10_HAVE_VOICE,
+                           cleaner=somali.DemographicCleaner.clean_yes_no,
+                           coded_field="s10_have_voice_coded",
+                           analysis_file_key="s10_have_voice",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("have voice"),
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(raw_field="s10_suggestions_raw",
+                   time_field="s10_suggestions_time",
+                   coda_filename="FCDO_EiE_s10_suggestions.json",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.SINGLE,
+                           code_scheme=CodeSchemes.S10_SUGGESTIONS,
+                           coded_field="s10_suggestions_coded",
+                           analysis_file_key="s10_suggestions",
+                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("suggestions"),
                    raw_field_fold_strategy=FoldStrategies.assert_equal)
     ]
 
