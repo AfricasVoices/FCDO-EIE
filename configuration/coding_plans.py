@@ -340,11 +340,11 @@ def get_follow_up_coding_plans(pipeline_name):
                    coda_filename="FCDO_EiE_s10_suggestions.json",
                    coding_configurations=[
                        CodingConfiguration(
-                           coding_mode=CodingModes.SINGLE,
+                           coding_mode=CodingModes.MULTIPLE,
                            code_scheme=CodeSchemes.S10_SUGGESTIONS,
                            coded_field="s10_suggestions_coded",
                            analysis_file_key="s10_suggestions",
-                           fold_strategy=FoldStrategies.assert_label_ids_equal
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.S10_SUGGESTIONS, x, y)
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("suggestions"),
