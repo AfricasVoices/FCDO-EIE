@@ -3,7 +3,46 @@
   "Name": "S10 Suggestions",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-7d3a983c",
+      "CodeType": "Normal",
+      "DisplayText": "create awareness on value of consultation",
+      "NumericValue": 1,
+      "StringValue": "create_awareness_on_value_of_consultation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-574e83fa",
+      "CodeType": "Normal",
+      "DisplayText": "improve and continue radio programs",
+      "NumericValue": 2,
+      "StringValue": "improve_and_continue_radio_programs",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ec49113d",
+      "CodeType": "Normal",
+      "DisplayText": "radio stations to promote peace and progress",
+      "NumericValue": 3,
+      "StringValue": "radio_stations_to_promote_peace_and_progress",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-30af191e",
+      "CodeType": "Normal",
+      "DisplayText": "diversify the consultation",
+      "NumericValue": 4,
+      "StringValue": "diversify_the_consultation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d2cc4e4e",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 5,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
