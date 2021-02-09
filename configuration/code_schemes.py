@@ -33,4 +33,7 @@ class CodeSchemes(object):
     SCHOOLS_INFORMING_PARENTS = _open_scheme("schools_informing_parents.json")
     ISSUES_IN_SCHOOL = _open_scheme("issues_in_school.json")
 
+    S10_HAVE_VOICE = _open_scheme("s10_have_voice.json")
+    S10_SUGGESTIONS = _open_scheme("s10_suggestions.json")
+
     WS_CORRECT_DATASET = _open_scheme("ws_correct_dataset.json")
